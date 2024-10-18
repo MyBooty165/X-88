@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hello! I'm X-88, a young programmer who partakes in unblocking and web/software development">
+    <meta name="author" content="X-88">
+    <title>My Web Page / X-88</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="space-particles" onload="spaceparticle()">
+      <div id="main-window">
+        <div id="header">
+          <div id="header-btn">
+            <button class="button" id="close" onclick="close()"></button>
+            <button class="button" id="minimize" onclick="min()"></button>
+            <button class="button" id="expand" onclick="expand()"></button>
+          </div>
+          <p class="header-title">X-88's Web Page</p>
+        </div>
+        <div id="content">
+          <h1 class="title">Welcome to my web page!</h1>
+          <p class="desc">This is my personal website, my pseudonym is X-88. I am a young (teen) web developer (and maybe software developer in the future) who focuses on the creation of unblocked games and proxies. As of 2024, I am a lone developer and will probably remain that way for the forseeable future.</p>
+          <h3 class="subtitle">My Projects:</h3>
+          <p class="desc">Some of my favorite &amp; most popular projects include:</p>
+          <ul class="list-bullet">
+            <li><a class="links" href="https://cygg.cybriatech.dev">CybriaGG (Archived)</li>
+            <li><a class="links" href="https://cybriagames.com">CybriaGames</a></li>
+            <li><a class="links" href="https://cybriasoundboard.pages.dev">CybriaSoundboard</a></li>
+            <li><a class="links" href="https://opium-games.com">Opium Games (Archived)</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <script>
+function spaceparticle() {
+particlesJS("space-particles", {
+  "particles": {
+    "number": {
+      "value": 500,
+      "density": {
+        "enable": true,
+        "value_area": 1200
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.48927153781200905,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 0.2,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 2,
+        "size_min": 0,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.5,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "bounce",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 83.91608391608392,
+        "size": 1,
+        "duration": 3,
+        "opacity": 1,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+}
+      </script>
+  </body>
